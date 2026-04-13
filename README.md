@@ -8,7 +8,7 @@ This is a new OpenCode configuration. Customize it according to your needs.
 /
 ├── config/                       # Configuration directory
 │   ├── agent/                   # Agent definitions (markdown files)
-│   ├── skill/                   # Custom skills (directories with instructions)
+│   ├── skills/                  # Custom skills (directories with instructions)
 │   ├── command/                 # Custom commands (markdown files)
 │   ├── instructions/            # Shared instructions
 │   ├── policies/rules/          # Policy documents
@@ -22,7 +22,7 @@ This is a new OpenCode configuration. Customize it according to your needs.
 
 1. Edit `opencode.metadata.jsonc` to add description and metadata
 2. Add agents in `config/agent/` directory
-3. Add skills in `config/skill/` directory
+3. Add skills in `config/skills/` directory
 4. Add commands in `config/command/` directory
 5. Add instructions in `config/instructions/` directory
 6. Customize `config/opencode.jsonc` as needed

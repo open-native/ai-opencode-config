@@ -48,7 +48,7 @@ opencode run --agent <agent-name> "Test prompt"
 - **Files:** Use `kebab-case` matching the directory or content (e.g., `agent/my-agent.md`).
 - **Extensions:**
   - Agents: `.md`
-  - Skills: `.md` (inside `skill/<name>/`)
+  - Skills: `.md` (inside `skills/<name>/`)
   - Config: `.jsonc` (preferred over `.json` to allow comments)
 
 ### Formatting
@@ -73,7 +73,7 @@ opencode run --agent <agent-name> "Test prompt"
 ```
 /
 ├── agent/                    # Agent definitions (.md files)
-├── skill/                    # Skill definitions (each in its own subdir)
+├── skills/                   # Skill definitions (each in its own subdir)
 ├── command/                  # Custom slash commands (each in its own subdir)
 ├── instructions/             # Shared instructions/context
 ├── policies/rules/           # Policy documents
@@ -123,7 +123,7 @@ You are an agent specialized in...
 ### Creating Skills
 Skills provide reusable capabilities or knowledge.
 
-1. Create directory `skill/<skill-name>/`.
+1. Create directory `skills/<skill-name>/`.
 2. Add `SKILL.md` with frontmatter.
 
 ```markdown

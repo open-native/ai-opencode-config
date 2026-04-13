@@ -21,7 +21,7 @@ Add your code style guidelines here.
 ```
 /
 ├── agent/                    # Agent definitions (.md files)
-├── skill/                    # Skill definitions
+├── skills/                   # Skill definitions
 ├── command/                  # Custom slash commands
 ├── instructions/             # Shared instructions
 ├── policies/rules/           # Policy documents
@@ -59,7 +59,7 @@ Types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
 
 ### Creating Skills
 
-1. Create directory `skill/<skill-name>/`
+1. Create directory `skills/<skill-name>/`
 2. Add `SKILL.md` with frontmatter:
    ```yaml
    ---

@@ -49,14 +49,14 @@ When you need specific guidance, load these files:
 
 ### Standards and Guidelines
 
-- `skill/commit-conventions/references/standards.md` - Padroes e restricoes gerais
+- `skills/commit-conventions/references/standards.md` - Padroes e restricoes gerais
 
 ### Instructions by Task Type
 
-- `skill/commit-conventions/references/conventional-commits.md` - Guia completo de Conventional Commits
+- `skills/commit-conventions/references/conventional-commits.md` - Guia completo de Conventional Commits
 
 ### Templates
 
-- `skill/commit-conventions/references/commit-message.md` - Template de mensagem de commit
+- `skills/commit-conventions/references/commit-message.md` - Template de mensagem de commit
 
 Use the Read tool to load the appropriate file based on the task at hand.
